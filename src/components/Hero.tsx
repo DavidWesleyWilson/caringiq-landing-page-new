@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="text-center">
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            You've Been Caring Without Help
+            You&apos;ve Been Caring Without Help
             <span className="text-caring-600 block">Long Enough</span>
           </h1>
           

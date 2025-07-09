@@ -7,7 +7,7 @@ const testimonials = [
     id: '1',
     name: 'Sarah Johnson',
     role: 'Daughter & Primary Caregiver',
-    content: 'CaringIQ has been a game-changer for our family. Cari helps me coordinate care between my siblings and keeps track of all my mom\'s appointments and medications. I finally feel like I\'m not doing this alone.',
+    content: 'CaringIQ has been a game-changer for our family. Cari helps me coordinate care between my siblings and keeps track of all my mom&apos;s appointments and medications. I finally feel like I&apos;m not doing this alone.',
     avatar: '/avatars/sarah.jpg',
   },
   {
@@ -21,7 +21,7 @@ const testimonials = [
     id: '3',
     name: 'Lisa Rodriguez',
     role: 'Daughter & Healthcare Advocate',
-    content: 'As someone who manages my father\'s complex medical care, CaringIQ has been invaluable. The scheduling features and communication tools help keep everyone in the loop without overwhelming anyone.',
+    content: 'As someone who manages my father&apos;s complex medical care, CaringIQ has been invaluable. The scheduling features and communication tools help keep everyone in the loop without overwhelming anyone.',
     avatar: '/avatars/lisa.jpg',
   },
 ]
@@ -53,7 +53,7 @@ export default function Testimonials() {
               </div>
               
               <blockquote className="text-gray-700 mb-6 italic">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
               
               <div className="flex items-center">

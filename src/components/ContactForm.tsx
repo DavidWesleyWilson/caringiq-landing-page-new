@@ -44,7 +44,7 @@ export default function ContactForm() {
               Message Sent!
             </h2>
             <p className="text-gray-600 mb-6">
-              Thank you for reaching out. We'll get back to you within 24 hours.
+              Thank you for reaching out. We&apos;ll get back to you within 24 hours.
             </p>
             <button
               onClick={() => setIsSubmitted(false)}
@@ -67,7 +67,7 @@ export default function ContactForm() {
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Have questions about CaringIQ? Want to learn more about how Cari can help your family? 
-            We'd love to hear from you.
+            We&apos;d love to hear from you.
           </p>
         </div>
 
@@ -75,11 +75,11 @@ export default function ContactForm() {
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-              Let's Talk About Your Caregiving Journey
+              Let&apos;s Talk About Your Caregiving Journey
             </h3>
             <p className="text-gray-600 mb-8">
-              Whether you're just starting to think about caregiving support or you're in the middle 
-              of a challenging situation, we're here to help. Our team understands the unique 
+              Whether you&apos;re just starting to think about caregiving support or you&apos;re in the middle 
+              of a challenging situation, we&apos;re here to help. Our team understands the unique 
               challenges families face.
             </p>
             
@@ -90,7 +90,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">Quick Response</div>
-                  <div className="text-sm text-gray-600">We'll get back to you within 24 hours</div>
+                  <div className="text-sm text-gray-600">We&apos;ll get back to you within 24 hours</div>
                 </div>
               </div>
               

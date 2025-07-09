@@ -41,10 +41,10 @@ export default function WaitlistForm() {
           <div className="card">
             <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              You're on the List!
+              You&apos;re on the List!
             </h2>
             <p className="text-gray-600 mb-6">
-              Thank you for joining our waitlist. We'll notify you as soon as CaringIQ is available in your area.
+              Thank you for joining our waitlist. We&apos;ll notify you as soon as CaringIQ is available in your area.
             </p>
             <button
               onClick={() => setIsSubmitted(false)}
@@ -188,7 +188,7 @@ export default function WaitlistForm() {
             </button>
 
             <p className="text-sm text-gray-500 text-center">
-              By joining our waitlist, you'll receive updates about CaringIQ's launch and exclusive early access.
+              By joining our waitlist, you&apos;ll receive updates about CaringIQ&apos;s launch and exclusive early access.
             </p>
           </form>
         </div>
